@@ -1,0 +1,26 @@
+#Day4-Conditions
+age=int(input("Enter the age:"))
+if age>=18:
+  print("You are Eligible for Voting")
+else:
+  print("You are not Eligible for Voting")
+n=int(input("Enter the Number:"))
+print("Even" if n%2==0 else "Odd")
+
+#Day5-Loops(for)
+for n in range(1,6,2):
+    print(n)
+for f in "Python":
+    print(f)
+
+#Day6-Loops(while)
+i=0
+while i <=5:
+    print(i)
+    i+=1
+n=0
+while n<3:
+    print("hi")
+    n+=1
+
+
