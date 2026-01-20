@@ -1,0 +1,35 @@
+#Day7-Break & Continue
+for i in range(7):
+    if i == 5:
+        break
+    print(i)
+    
+for n in range(9):
+    if n==7:
+        continue
+    print(n)
+    
+while True:
+    print("Stop")
+    break
+
+for i in range(1,6):
+    if i%2==0:
+        continue
+    print(i)
+
+#Day8-Strings
+name="Sayyed Rida Fatima Sharif"
+print(len(name))
+print(name .upper())
+print(name .lower())
+print(name [19])
+print(name [::-2])
+
+#Day9-String Methods
+name="sayyed rida fatima sharif "
+print(name .title())
+print(name .split())
+print(name .replace("rida","RIDA"))
+print(name .isalpha())
+print(name .isdigit())
