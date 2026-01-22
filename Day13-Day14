@@ -1,0 +1,20 @@
+#Day13-Sets
+s={5,4,6}
+print(s)
+s.add(3)
+print(s)
+s.remove(6)
+print(2 in s)
+print(len(s))
+
+#Day14-Dictionaries
+r={"name":"Rida" ,"Std":"SE"}
+print(r)
+print(r["name"])
+r["Std"] ="TE"
+print(r)
+for k in r:
+    print(k)
+for v in r.values():
+    print(v)
+
