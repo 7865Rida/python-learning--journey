@@ -1,0 +1,45 @@
+#Day15-Function
+def chai_banao():
+    print("Gas on karo")
+    print("Pani dalo")
+    print("Chai patti dalo")
+chai_banao()
+
+def add(a,b):
+    return a+b
+print(add(3,4))
+
+def square(n):
+    print(n*n)
+square(5)
+
+def greet(name):
+    print("Hi",name)
+greet("Rida")
+
+def even(n):
+    return n%2 == 0
+print(even(4))
+
+#Day16-Math Programs
+n=int(input("Enter the Number:"))
+print(n*n)
+
+p=int(input("Enter the Number:"))
+print(p**3)
+
+q,r=5,10
+print(q+r)
+
+print(abs(-10))
+
+print(pow(3,3))
+
+#Day17-Number Logic
+n=int(input("Enter the Number:"))
+print(n%2 ==0)
+p=int(input("Enter the Number"))
+print(p>0)
+a,b=10,20
+print(a>b)
+print(round(3.6))
