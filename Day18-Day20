@@ -1,0 +1,75 @@
+# Day 18 - Functions in Python
+
+# Function without return value
+def greet():
+    name = input("Enter your name: ")
+    print("Hello", name)
+
+# Function with parameters
+def add(a, b):
+    return a + b
+
+# Function to check even or odd
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Calling greet function
+greet()
+
+# Calling add function
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+result = add(x, y)
+print("Sum:", result)
+
+# Calling even-odd function
+number = int(input("Enter a number: "))
+print("Number is", check_even_odd(number))
+
+# Day 19 - File Handling
+# Writing to a file
+f = open("test.txt", "w")
+f.write("Hello")
+f.close()
+
+# Reading from a file
+f = open("test.txt", "r")
+print(f.read())
+f.close()
+
+# Appending to a file
+with open("test.txt", "a") as f:
+    f.write(" Python")
+
+# Reading one line
+with open("test.txt", "r") as f:
+    print(f.readline())
+
+print("File done")
+
+# Day 20 - Exception Handling
+# ZeroDivisionError
+try:
+    print(10 / 0)
+except:
+    print("Error")
+# ValueError
+try:
+    a = int("abc")
+except ValueError:
+    print("Invalid")
+# NameError
+try:
+    print(x)
+except NameError:
+    print("Not defined")
+# No error case
+try:
+    print(5 / 1)
+except:
+    pass
+
+print("Done")
