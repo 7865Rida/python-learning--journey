@@ -1,0 +1,16 @@
+#Day24
+nums = [1,2,3,4,5]
+
+print(list(map(lambda x: x*2, nums)))
+print(list(filter(lambda x: x%2==0, nums)))
+
+#Day25
+  squares = [i*i for i in range(1,6)]
+print(squares)
+
+#Day26
+try:
+    with open("data.txt","r") as f:
+        print(f.read())
+except FileNotFoundError:
+    print("File not found")
