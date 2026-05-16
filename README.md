@@ -1,2 +1,2 @@
-# python-learning--journey
-My 30-day Python learning journey from beginner  to advanced concepts with daily practice codes.
+# python-learning-journey
+ My 30-day Python learning journey covering beginner to advanced concepts with daily practice codes, exercises, and mini projects.
